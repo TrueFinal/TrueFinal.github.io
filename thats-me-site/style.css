@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana;
+    margin: 0.75;
+    padding: 0.75;
+    background: linear-gradient(to right, #000000, #610303);
+    color: #b4adad;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #610303);
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    text-align: center;
+    padding: 25px;
+}
+
+div {
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: #b4adad;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.projeto {
+    background: linear-gradient(to right, #000000, #610303);
+    text-align: justify;
+    margin-bottom: 25px;
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+}
+
+.projeto:nth-child(even) {
+    transform: translateX(0%);
+    position: relative;
+    left: 0%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #610303);
+    color: #b4adad;    
+}
