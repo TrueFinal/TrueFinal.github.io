@@ -28,7 +28,7 @@ div {
 
 nav a {
     text-align: center;
-    color: #b4adad;
+    color: #ffffff;
     margin: 0 15px;
     font-weight: bold;
 }
@@ -51,8 +51,9 @@ nav a {
 footer {
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
+    position: relative;
+    height: 4%;
     width: 100%;
     background: linear-gradient(to right, #000000, #610303);
     color: #b4adad;    
